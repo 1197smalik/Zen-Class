@@ -100,3 +100,41 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://google.com" target="_blank">Google web page</a>
+</body>
+</html>
+
+__________________________________________________________________________________________________________________________________
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="GET" target="_self">
+        <h1>Salary Information</h1>
+        <label>Employee Type: </label>
+        <input type="radio" name="salary" value="salaried"/> Salaried &nbsp;
+        <input type="radio" name="salary" value="own_business"/> Own Business <br/><br/>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
+___________________________________________________________________________________________________________________________________
+
