@@ -274,3 +274,39 @@ ________________________________________________________________________________
 
 ______________________________________________________________________________________________________________________________________________
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <form style="border: 2px solid; position: absolute; padding: 10px;">
+        <br/> <label>Name : </label>
+        <input type="text"><br/><br/>
+        <label>Email : </label>
+        <input type="email"><br/><br/>
+        <label>Password : </label>
+        <input type="password"><br/><br/>
+        <label>Favorite Color : </label>
+        <input type="color"><br/><br/>
+        <label>DOB : </label>
+        <input type="date"><br/><br/>
+        <label>Choose Image File : </label>
+        <input type="file"><br/><br/>
+        <label>Item Quantity : </label>
+        <input type="number" min="1" max="5"><br/><br/>
+        <label>Hobbies : </label>
+        <input type="checkbox" name="1">Dance <input type="checkbox" name="1">Music <input type="checkbox" name="1">Art <input type="checkbox" name="1">Travelling <br/><br/>
+        <label>Occupation : </label>
+        <input type="radio" name="2">Salaried <input type="radio" name="2">Business <br/><br/>
+        <label>Scale 1-10 your review : </label>
+        <input type="range" min="1" max="10"><br/><br/>
+        <button>SUBMIT</button>
+        </form>
+        </body>
+</body>
+</html>
