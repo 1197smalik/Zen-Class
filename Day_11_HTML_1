@@ -138,3 +138,68 @@ ________________________________________________________________________________
 
 ___________________________________________________________________________________________________________________________________
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" target="_self" style="border: 2px solid;position: absolute; padding: 2px;">
+        <table >
+            <tr><th colspan="6" style="text-align: center;color: white;background-color: red; font-size: 30px;">Yes! I want to subscribe to <span style="font-size: 35px;"><em>Mag-O-Zine</em></span></th></tr>
+            <tr>
+                <td colspan="3"><input type="text" style="position: relative;border-bottom: 2px solid;border-top: 0px;border-left: 0px;border-right: 0px;"></td>
+                <td colspan="3"><input type="text" style="position: relative;border-bottom: 2px solid;border-top: 0px;border-left: 0px;border-right: 0px;"></td>
+            </tr>
+            <tr>
+                <td colspan="3">First Name</td>
+                <td colspan="3">Last Name</td>
+            </tr>
+            <tr>
+                <td colspan="6"><input type="text" style="width: 100%;border-bottom: 2px solid;border-top: 0px;border-left: 0px;border-right: 0px;"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" style=" width: 50%;border-bottom: 2px solid;border-top: 0px;border-left: 0px;border-right: 0px;">
+                </td>
+                <td colspan="2">
+                    <input type="text"  style=" width: 30%;border-bottom: 2px solid;border-top: 0px;border-left: 0px;border-right: 0px;">
+                </td>
+                <td colspan="2">
+                    <input type="text" style=" width: 70%;border-bottom: 2px solid;border-top: 0px;border-left: 0px;border-right: 0px;">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">City</td>
+                <td colspan="2">State</td>
+                <td colspan="2">Zip</td>
+            </tr>
+            <tr>
+                <td>Subscribe for: </td>
+                <td>
+                    <input type="checkbox" name="subscribe"> 1 year ($19.95)
+                </td>
+                <td>
+                    <input type="checkbox" name="subscribe"> 2 years ($35.00)
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    Send me more information about:<br/>
+                    <input type="checkbox" name="information"> Computer-Zine <br/>
+                    <input type="checkbox" name="information"> Fishing-Zine <br/>
+                    <input type="checkbox" name="information"> Cat-O-Zine 
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
+___________________________________________________________________________________________________________________________________
